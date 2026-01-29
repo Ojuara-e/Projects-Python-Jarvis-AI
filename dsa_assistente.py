@@ -1,4 +1,4 @@
-# Estudo de Caso 1 - DSA AI Coder - Criando Seu Assistente de Programação Python, em Python
+# Criando Seu Assistente de Programação Python, em Python
 
 # Importa módulo para interagir com o sistema operacional
 import os
@@ -11,7 +11,7 @@ from groq import Groq
 
 # Configura a página do Streamlit com título, ícone, layout e estado inicial da sidebar
 st.set_page_config(
-    page_title="Asteca AI Coder",
+    page_title="Jarvis AI Coder",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -19,7 +19,7 @@ st.set_page_config(
 
 # Define um prompt de sistema que descreve as regras e comportamento do assistente de IA
 CUSTOM_PROMPT = """
-Você é o "Asteca Coder", um assistente de IA especialista em programação, com foco principal em Python. Sua missão é ajudar desenvolvedores iniciantes com dúvidas de programação de forma clara, precisa e útil.
+Você é o "Jarvis Coder", um assistente de IA especialista em programação, com foco principal em Python. Sua missão é ajudar desenvolvedores iniciantes com dúvidas de programação de forma clara, precisa e útil.
 
 REGRAS DE OPERAÇÃO:
 1.  **Foco em Programação**: Responda apenas a perguntas relacionadas a programação, algoritmos, estruturas de dados, bibliotecas e frameworks. Se o usuário perguntar sobre outro assunto, responda educadamente que seu foco é exclusivamente em auxiliar com código.
@@ -35,7 +35,7 @@ REGRAS DE OPERAÇÃO:
 with st.sidebar:
     
     # Define o título da barra lateral
-    st.title("🤖 Asteca AI Coder")
+    st.title("🤖 Jarvis AI Coder")
     
     # Mostra um texto explicativo sobre o assistente
     st.markdown("Um assistente de IA focado em programação Python para ajudar iniciantes.")
@@ -61,7 +61,7 @@ with st.sidebar:
     st.link_button("✉️ E-mail Suporte do Ojuara no Caso de Dúvidas", "mailto:ellihasdhavisaraujo2@gmail.com")
 
 # Título principal do app
-st.title("Asteca AI Coder")
+st.title("Jarvis AI Coder")
 
 # Subtítulo adicional
 st.title("Assistente Pessoal de Programação Python 🐍")
@@ -152,7 +152,7 @@ st.markdown(
     """
     <div style="text-align: center; color: gray;">
         <hr>
-        <p>Asteca AI Coder - Todos os direitos reservados - Jaraguá do Sul - 2025</p>
+        <p>Jarvis AI Coder - Todos os direitos reservados - Jaraguá do Sul - 2025</p>
     </div>
     """,
     unsafe_allow_html=True
