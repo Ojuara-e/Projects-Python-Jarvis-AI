@@ -1,4 +1,4 @@
-# 🤖 Project 1 — Jarvis AI Coder  
+# 🤖 Project 1: Jarvis AI Coder  
 ### Building a Python Programming Assistant with Python & Streamlit
 
 ---
