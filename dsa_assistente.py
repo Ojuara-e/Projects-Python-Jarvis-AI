@@ -58,7 +58,7 @@ with st.sidebar:
     st.markdown("🔗 [Instagram Ojuara](https://www.instagram.com/ojuara_e)")
     
     # Botão de link para enviar e-mail ao suporte da DSA
-    st.link_button("✉️ E-mail Suporte do Ojuara no Caso de Dúvidas", "mailto:ellihasdhavisaraujo2@gmail.com")
+    st.link_button("✉️ E-mail Suporte do Ojuara no Caso de Dúvidas", "mailto:ellihasdhavisaraujo@gmail.com")
 
 # Título principal do app
 st.title("Jarvis AI Coder")
@@ -158,7 +158,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Obrigado DSA
+# Obrigado Ojuara_e
 
 
 
